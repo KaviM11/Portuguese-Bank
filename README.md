@@ -41,5 +41,6 @@ Logistic reggression ,KNN, SVM, Desicion Tree, Random Forests
     Random Forests                  0.95                  0.90                  0.92              0.92
     
     
-# Result:Random Forest has the recall with 95% and precision score of 90%, Random Forest predicted is giving more precised score then other algorithms.
+# Result: 
+### Random Forest has the recall with 95% and precision score of 90%, Random Forest is giving more precised score then other algorithms.
     
