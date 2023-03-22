@@ -1,4 +1,5 @@
-#Portuguese Bank : To create a predictive model which will help the bank marketing team to know which customer will buy the product.
+# Portuguese Bank :
+To create a predictive model which will help the bank marketing team to know which customer will buy the product.
 
 This dataset is about the direct phone call marketing campaigns, which aim to promote term deposits among existing customers, by a Portuguese banking institution from May 2008 to November 2010. 
 
@@ -10,22 +11,22 @@ The main goal of this project was to be able to predict which customers would su
 
 The deep explanatory analysis has shown the dataset is a victim of high class imbalance. It also showed that day_of_week doesn’t help much in the prediction.
 
-
 After the EDA, the dataset was preprocessed by using a one-hot encoder for categorical variables whereas, StandardScaler was used for numerical columns.
 
 Then we created pipelines consisting of 5 classifiers to be compared by the use of f1 score,recall_score,precision_score
 
-Bussniess  case
+# Bussniess  case
 case 1 : Customers with high chances of buying the product but the model predicted them as customers who are not interested in buying the product. 
 
 case 2 : Customers with low chances of buying the product but the model predicted them as customers who are highly  interested in buying the product 
 
 Both case 1 and case2 are problematic, so recall and precision both scores should be high.
 
+# Models used :
+Logistic reggression ,KNN, SVM, Desicion Tree, Random Forests
 
 
-
-Result Table :
+# Result Table :
                               
                                Recall_score         Precision_score        f1_score      Accuracy_score
     
@@ -35,10 +36,10 @@ Result Table :
             
             SVM                     0.76                  0.75                  0.76              0.76
             
-     Desicion Tress                 0.91                  0.79                  0.85              0.83
+     Desicion Tree                 0.91                  0.79                  0.85              0.83
     
     Random Forests                  0.95                  0.90                  0.92              0.92
     
     
-Result:Random Forest has the recall with 95% and precision score of 90%, Random Forest predicted is giving more precised score then other algorithms.
+# Result:Random Forest has the recall with 95% and precision score of 90%, Random Forest predicted is giving more precised score then other algorithms.
     
